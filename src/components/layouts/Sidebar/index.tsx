@@ -44,7 +44,7 @@ const Sidebar: FC<SidebarProps> = ({}) => {
       <div className="space-y-4 py-4">
         <div className="px-3 py-2">
           <h2 className="mb-2 px-4 text-lg font-semibold">Settings</h2>
-          <Button variant={'ghost'} className="w-full justify-start rounded-none  hover:text-primary">
+          <Button variant={'ghost'} className="w-full justify-start rounded-none  hover:text-primary" onClick={() => router.push('/settings')}>
             <MdOutlineSettings className="mr-2 text-lg" /> Settings
           </Button>
           <Button variant={'ghost'} className="w-full justify-start rounded-none  hover:text-primary">
